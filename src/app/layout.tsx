@@ -41,9 +41,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/medical-logo.svg",
-    shortcut: "/medical-logo.svg",
-    apple: "/medical-logo.svg",
+    icon: "/medical-logo.jpg",
+    shortcut: "/medical-logo.jpg",
+    apple: "/medical-logo.jpg",
   },
   openGraph: {
     type: "website",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     description: "Trusted medical store in Manpur Narayanpur, Linepar, Moradabad for genuine medicines, wellness essentials, baby care, personal care, and health devices.",
     images: [
       {
-        url: absoluteUrl("/medical-logo.svg"),
+        url: absoluteUrl("/medical-logo.jpg"),
         width: 1200,
         height: 630,
         alt: "Jay Ambey Medical Store Logo",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Jay Ambey Medical Store | Medical Store in Moradabad",
     description: "Medical store for medicines, wellness products, and healthcare essentials.",
-    images: [absoluteUrl("/medical-logo.svg")],
+    images: [absoluteUrl("/medical-logo.jpg")],
   },
 };
 

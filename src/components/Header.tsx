@@ -10,9 +10,15 @@ export default function Header() {
   useEffect(() => {
     const fetchSettings = async () => {
       try {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 5000);
+        
         const response = await fetch('/api/admin/settings', {
           headers: { 'x-admin-secret': '1234' },
+          signal: controller.signal
         });
+        clearTimeout(timeout);
+        
         if (response.ok) {
           const data = await response.json();
           if (data.shopName) {
@@ -21,6 +27,8 @@ export default function Header() {
         }
       } catch (error) {
         console.error('Error fetching settings:', error);
+        // Use default name on error
+        setShopName('Jay Ambey Medical Store');
       }
     };
 

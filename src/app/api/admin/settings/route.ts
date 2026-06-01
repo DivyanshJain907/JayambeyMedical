@@ -12,7 +12,13 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    await dbConnect();
+    // Add timeout to database connection
+    const timeoutPromise = new Promise((_, reject) =>
+      setTimeout(() => reject(new Error('Database connection timeout')), 5000)
+    );
+    
+    await Promise.race([dbConnect(), timeoutPromise]);
+    
     const settings = await Settings.find();
 
     const settingsObj: Record<string, any> = {};
@@ -21,8 +27,10 @@ export async function GET(request: NextRequest) {
     });
 
     return NextResponse.json(settingsObj);
-  } catch (error) {
-    return NextResponse.json({ error: 'Failed to fetch settings' }, { status: 500 });
+  } catch (error: any) {
+    console.error('Settings API Error:', error.message);
+    // Return empty object on error to prevent page hang
+    return NextResponse.json({}, { status: 200 });
   }
 }
 

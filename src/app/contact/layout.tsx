@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     url: `${siteUrl}/contact`,
     type: "website",
     siteName: "Jay Ambey Medical Store",
-    images: ["/medical-logo.svg"],
+    images: ["/medical-logo.jpg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Contact Jay Ambey Medical Store",
     description: "Connect for medicines, health devices, and wellness essentials.",
-    images: ["/medical-logo.svg"],
+    images: ["/medical-logo.jpg"],
   },
 };
 

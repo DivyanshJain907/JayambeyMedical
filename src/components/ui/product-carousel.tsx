@@ -31,13 +31,21 @@ export const ProductCarousel = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch('/api/products?featured=true');
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 5000);
+      
+      const response = await fetch('/api/products?featured=true', {
+        signal: controller.signal
+      });
+      clearTimeout(timeout);
+      
       if (response.ok) {
         const data = await response.json();
         setProducts(data);
       }
     } catch (error) {
       console.error('Error fetching products:', error);
+      setProducts([]); // Set empty array on error
     } finally {
       setLoading(false);
     }

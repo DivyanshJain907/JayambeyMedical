@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8 mb-8">
           <div>
-            <Image src="/medical-logo.svg" alt="Jay Ambey Medical Store logo" width={80} height={80} className="w-16 md:w-24 h-auto mb-3 md:mb-4" />
+            <Image src="/medical-logo.jpg" alt="Jay Ambey Medical Store logo" width={80} height={80} className="w-16 md:w-24 h-auto mb-3 md:mb-4" />
             <h3 className="text-white font-bold text-base md:text-lg mb-3 md:mb-4">{settings.shopName}</h3>
             <p className="text-xs md:text-sm text-gray-200">
               Genuine medicines, wellness essentials, health devices, and helpful pharmacy support for everyday care.

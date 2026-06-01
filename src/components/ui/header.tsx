@@ -46,7 +46,7 @@ function Header1() {
                 <div className="flex justify-between items-center min-h-14 md:min-h-20">
                     <Link href="/" className="flex items-center gap-3 flex-shrink-0">
                         <Image
-                            src="/medical-logo.svg"
+                            src="/medical-logo.jpg"
                             alt="Jay Ambey Medical Store logo"
                             width={56}
                             height={56}
@@ -103,11 +103,11 @@ function Header1() {
                         </NavigationMenuList>
                     </NavigationMenu>
 
-                    <Link href="/quote" className="hidden md:block">
+                    <a href="https://wa.me/919368555196?text=Hello! I want to check medicine availability at Jay Ambey Medical Store." target="_blank" rel="noopener noreferrer" className="hidden md:block">
                         <button className="bg-amber-400 hover:bg-amber-500 text-slate-900 font-bold px-6 md:px-8 py-2 md:py-3 rounded-lg transition transform hover:scale-105 shadow-md text-sm md:text-base">
                             Request Medicine
                         </button>
-                    </Link>
+                    </a>
 
                     <Button
                         variant="ghost"
@@ -139,11 +139,11 @@ function Header1() {
                             </div>
                         ))}
                         <div className="border-t border-emerald-200 pt-3 px-4">
-                            <Link href="/quote" className="block w-full">
+                            <a href="https://wa.me/919368555196?text=Hello! I want to check medicine availability at Jay Ambey Medical Store." target="_blank" rel="noopener noreferrer" className="block w-full">
                                 <button className="w-full bg-amber-400 hover:bg-amber-500 text-slate-900 font-bold py-2 rounded-lg transition text-sm">
                                     Request Medicine
                                 </button>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 )}

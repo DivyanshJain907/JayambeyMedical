@@ -47,15 +47,15 @@ export default function AdminLogin() {
         <div className="bg-white border border-gray-200 rounded-lg p-6 md:p-8 shadow-lg">
           <div className="flex justify-center mb-4 md:mb-6">
             <Image 
-              src="/logo.png" 
-              alt="Radhey Raman Steels Logo" 
+              src="/medical-logo.jpg" 
+              alt="Jay Ambey Medical Store Logo" 
               width={160} 
               height={160}
               className="w-auto h-32"
             />
           </div>
           <h1 className="text-2xl md:text-3xl font-bold text-center mb-2 text-black">
-            Radhey Raman Steel
+            Jay Ambey Medical Store
           </h1>
           <p className="text-gray-600 text-center mb-6 md:mb-8 text-sm md:text-base">
             Admin Portal

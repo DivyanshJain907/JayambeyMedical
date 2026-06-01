@@ -68,11 +68,11 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="flex flex-col md:flex-row gap-6 justify-center items-center"
           >
-            <Link href="/quote">
+            <a href="https://wa.me/919368555196?text=Hello! I want to check medicine availability at Jay Ambey Medical Store." target="_blank" rel="noopener noreferrer">
               <button className="bg-amber-400 hover:bg-amber-500 text-slate-900 px-8 md:px-12 py-3 md:py-4 rounded-lg font-bold transition transform hover:scale-105 text-lg md:text-xl w-full md:w-auto shadow-lg">
                 Request Medicine
               </button>
-            </Link>
+            </a>
             <Link href="/products">
               <button className="bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-8 md:px-12 py-3 md:py-4 rounded-lg font-bold transition border-2 border-white text-lg md:text-xl w-full md:w-auto shadow-lg">
                 Browse Essentials

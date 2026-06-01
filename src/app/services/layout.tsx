@@ -13,13 +13,13 @@ export const metadata: Metadata = {
     url: `${siteUrl}/services`,
     type: "website",
     siteName: "Jay Ambey Medical Store",
-    images: ["/medical-logo.svg"],
+    images: ["/medical-logo.jpg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pharmacy Services | Jay Ambey Medical Store",
     description: "Healthcare and pharmacy services in Moradabad.",
-    images: ["/medical-logo.svg"],
+    images: ["/medical-logo.jpg"],
   },
 };
 

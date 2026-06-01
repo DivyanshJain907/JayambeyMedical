@@ -15,10 +15,17 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    await dbConnect();
+    // Add timeout to database connection
+    const timeoutPromise = new Promise((_, reject) =>
+      setTimeout(() => reject(new Error('Database connection timeout')), 5000)
+    );
+    
+    await Promise.race([dbConnect(), timeoutPromise]);
+    
     const contacts = await Contact.find().sort({ createdAt: -1 });
     return NextResponse.json(contacts);
   } catch (error: any) {
+    console.error('Contacts API Error:', error.message);
     return NextResponse.json(
       { error: error.message },
       { status: 500 }
@@ -28,7 +35,13 @@ export async function GET(request: NextRequest) {
 
 export async function POST(request: NextRequest) {
   try {
-    await dbConnect();
+    // Add timeout to database connection
+    const timeoutPromise = new Promise((_, reject) =>
+      setTimeout(() => reject(new Error('Database connection timeout')), 5000)
+    );
+    
+    await Promise.race([dbConnect(), timeoutPromise]);
+    
     const body = await request.json();
 
     // Send email using Resend
@@ -52,6 +65,7 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json(contact, { status: 201 });
   } catch (error: any) {
+    console.error('Contacts POST Error:', error.message);
     return NextResponse.json(
       { error: error.message },
       { status: 400 }
