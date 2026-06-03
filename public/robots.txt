@@ -4,4 +4,4 @@ Disallow: /admin
 Disallow: /api
 Disallow: /demo
 
-Sitemap: https://www.jayambeymedicalstore.com/sitemap.xml
+Sitemap: https://www.jayambeymedical.in/sitemap.xml

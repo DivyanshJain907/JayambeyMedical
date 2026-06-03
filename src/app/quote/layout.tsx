@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const siteUrl = "https://www.jayambeymedicalstore.com";
+const siteUrl = "https://www.jayambeymedical.in";
 
 export const metadata: Metadata = {
   title: "Request Medicine",

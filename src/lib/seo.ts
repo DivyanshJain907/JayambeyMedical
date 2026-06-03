@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Jay Ambey Medical Store",
-  url: "https://www.jayambeymedicalstore.com",
+  url: "https://www.jayambeymedical.in",
   logo: "/medical-logo.svg",
   phone: "+91-9368555196",
   displayPhone: "+91 9368555196",
