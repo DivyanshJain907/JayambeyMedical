@@ -10,42 +10,42 @@ const galleryItems = [
   {
     title: 'Prescription Medicines',
     category: 'Medicines',
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=85',
+    image: '/gallery/med1.jpg',
   },
   {
     title: 'OTC & First Aid',
     category: 'Healthcare',
-    image: 'https://images.unsplash.com/photo-1603398938378-e54eab446dde?auto=format&fit=crop&w=1000&q=85',
+    image: '/gallery/med2.jpg',
   },
   {
     title: 'Wellness & Nutrition',
     category: 'Wellness',
-    image: 'https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=1000&q=85',
+    image: '/gallery/med3.jpg',
   },
   {
     title: 'Health Devices',
     category: 'Devices',
-    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1000&q=85',
+    image: '/gallery/med4.jpg',
   },
   {
     title: 'Baby & Mother Care',
     category: 'Family Care',
-    image: 'https://images.unsplash.com/photo-1586015555751-63bb77f4322a?auto=format&fit=crop&w=1000&q=85',
+    image: '/gallery/med5.jpg',
   },
   {
     title: 'Personal Care Essentials',
     category: 'Daily Care',
-    image: 'https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=1000&q=85',
+    image: '/gallery/med6.jpg',
   },
   {
     title: 'Pharmacy Support',
     category: 'Service',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1000&q=85',
+    image: '/gallery/med7.jpg',
   },
   {
     title: 'Home Healthcare',
     category: 'Essentials',
-    image: 'https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&w=1000&q=85',
+    image: '/gallery/med8.jpg',
   },
 ];
 

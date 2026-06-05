@@ -39,7 +39,7 @@ export default function Home() {
         className="relative w-full min-h-screen flex items-center justify-center overflow-hidden -mt-16"
         style={{
           backgroundImage:
-            'linear-gradient(rgba(15, 23, 42, 0.42), rgba(15, 118, 110, 0.45)), url(https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=2000&q=85)',
+            'linear-gradient(rgba(15, 23, 42, 0.42), rgba(15, 118, 110, 0.45)), url(/landing-hero.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
