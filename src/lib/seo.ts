@@ -150,13 +150,6 @@ export function getLocalBusinessSchema() {
         paymentAccepted: "Cash, UPI",
         priceRange: "$$",
         areaServed: "Moradabad",
-        makesOffer: [
-          { "@type": "Offer", itemOffered: { "@type": "Product", name: "Prescription medicines" } },
-          { "@type": "Offer", itemOffered: { "@type": "Product", name: "OTC and first aid products" } },
-          { "@type": "Offer", itemOffered: { "@type": "Product", name: "Wellness and nutrition products" } },
-          { "@type": "Offer", itemOffered: { "@type": "Product", name: "Health devices" } },
-          { "@type": "Offer", itemOffered: { "@type": "Product", name: "Baby and mother care products" } },
-        ],
       },
       {
         "@type": "WebSite",
