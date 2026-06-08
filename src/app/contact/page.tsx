@@ -35,7 +35,7 @@ export default function ContactPage() {
               {[
                 { icon: '📍', title: 'Address', text: 'Manpur Narayanpur, Linepar, Moradabad, Uttar Pradesh 244001' },
                 { icon: '☎', title: 'Phone', text: '+91 9368555196' },
-                { icon: '✚', title: 'Owner', text: 'Jitadra Saini' },
+                { icon: '✚', title: 'Owner', text: 'Jitendra Saini' },
                 { icon: '⏰', title: 'Business Hours', text: 'Monday - Saturday: 9:00 AM - 9:00 PM\nSunday: Limited hours' },
               ].map((item) => (
                 <div key={item.title} className="flex gap-4">

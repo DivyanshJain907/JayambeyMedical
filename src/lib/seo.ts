@@ -4,7 +4,7 @@ export const siteConfig = {
   logo: "/medical-logo.svg",
   phone: "+91-9368555196",
   displayPhone: "+91 9368555196",
-  owner: "Jitadra Saini",
+  owner: "Jitendra Saini",
   email: "jayambeymedicalstore@gmail.com",
   address: {
     streetAddress: "Manpur Narayanpur, Linepar",

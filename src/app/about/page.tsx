@@ -29,7 +29,7 @@ export default function AboutPage() {
                 Jay Ambey Medical Store was built around a simple promise: make essential healthcare products easier to access, easier to understand, and easier to trust.
               </p>
               <p className="text-gray-600 text-base md:text-lg mb-3 md:mb-4">
-                Owner Jitadra Saini and the team support customers with prescription medicines, over-the-counter care, wellness products, health devices, and family essentials while keeping service personal and practical.
+                Owner Jitendra Saini and the team support customers with prescription medicines, over-the-counter care, wellness products, health devices, and family essentials while keeping service personal and practical.
               </p>
               <p className="text-gray-600 text-base md:text-lg">
                 Our team focuses on genuine products, clear communication, and quick help for urgent medicine needs.

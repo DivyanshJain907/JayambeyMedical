@@ -38,7 +38,7 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-3 md:mb-4 text-sm md:text-base">Contact</h4>
             <p className="text-xs md:text-sm text-gray-200">
               Phone: {settings.phone}<br />
-              Owner: Jitadra Saini
+              Owner: Jitendra Saini
             </p>
           </div>
 
